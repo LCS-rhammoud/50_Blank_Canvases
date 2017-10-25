@@ -31,17 +31,36 @@ canvas.drawShapesWithFill = false
 
 canvas.drawEllipse(centreX: -50, centreY: -10, width: 100, height: 100, borderWidth: 1)
 
+canvas.drawEllipse(centreX: -50, centreY: -10, width: 90, height: 90, borderWidth: 1)
+
+
 canvas.drawEllipse(centreX: -100, centreY: -35, width: 100, height: 100, borderWidth: 1)
+
+canvas.drawEllipse(centreX: -100, centreY: -35, width: 90, height: 90, borderWidth: 1)
 
 canvas.drawEllipse(centreX: -95, centreY: -85, width: 100, height: 100, borderWidth: 1)
 
+canvas.drawEllipse(centreX: -95, centreY: -85, width: 90, height: 90, borderWidth: 1)
+
 canvas.drawEllipse(centreX: -50, centreY: -122, width: 100, height: 100, borderWidth: 1)
+
+canvas.drawEllipse(centreX: -50, centreY: -122, width: 90, height: 90, borderWidth: 1)
+
 
 canvas.drawEllipse(centreX: 0, centreY: -35, width: 100, height: 100, borderWidth: 1)
 
+canvas.drawEllipse(centreX: 0, centreY: -35, width: 90, height: 90, borderWidth: 1)
+
+
 canvas.drawEllipse(centreX: -50, centreY: -65, width: 100, height: 100, borderWidth: 1)
 
+canvas.drawEllipse(centreX: -50, centreY: -65, width: 90, height: 90, borderWidth: 1)
+
+
 canvas.drawEllipse(centreX: -10, centreY: -85, width: 100, height: 100, borderWidth: 1)
+
+canvas.drawEllipse(centreX: -10, centreY: -85, width: 90, height: 90, borderWidth: 1)
+
 /*:
  ## Use source control
  To keep your work organized, and receive feedback, source control is a must.
