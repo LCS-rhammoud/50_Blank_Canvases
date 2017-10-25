@@ -24,8 +24,24 @@ let canvas = Canvas(width: 400, height: 300)
  */
 // Replace this comment with your first comment – what is the goal of the code you're about to write?
 
+canvas.translate(byX: 250, byY: 250)
 
+// Make 7 circles
+canvas.drawShapesWithFill = false
 
+canvas.drawEllipse(centreX: -50, centreY: -10, width: 100, height: 100, borderWidth: 1)
+
+canvas.drawEllipse(centreX: -100, centreY: -35, width: 100, height: 100, borderWidth: 1)
+
+canvas.drawEllipse(centreX: -95, centreY: -85, width: 100, height: 100, borderWidth: 1)
+
+canvas.drawEllipse(centreX: -50, centreY: -122, width: 100, height: 100, borderWidth: 1)
+
+canvas.drawEllipse(centreX: 0, centreY: -35, width: 100, height: 100, borderWidth: 1)
+
+canvas.drawEllipse(centreX: -50, centreY: -65, width: 100, height: 100, borderWidth: 1)
+
+canvas.drawEllipse(centreX: -10, centreY: -85, width: 100, height: 100, borderWidth: 1)
 /*:
  ## Use source control
  To keep your work organized, and receive feedback, source control is a must.
