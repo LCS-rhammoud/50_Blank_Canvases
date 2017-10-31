@@ -63,8 +63,9 @@ canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 1
 canvas.drawEllipse(centreX: 0, centreY: -10, width: 255, height: 235, borderWidth: 1)
 canvas.drawEllipse(centreX: 0, centreY: -10, width: 225, height: 230, borderWidth: 1)
 canvas.fillColor = Color.orange
-canvas.drawEllipse(centreX: 0, centreY: -10, width: 210, height: 215, borderWidth: 1)
-
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 215, height: 210, borderWidth: 1)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 200, height: 205, borderWidth: 1)
+canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
 /*:
  ## Use source control
  To keep your work organized, and receive feedback, source control is a must.
