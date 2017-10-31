@@ -46,4 +46,8 @@ let canvas = Canvas(width: 400, height: 300)
  */
 // Don't remove the code below
 PlaygroundPage.current.liveView = canvas.imageView
+//
+//for x in stride(from: 0, through: 1000, by: 100) {
+//    
+//if x % 200 = 0
 
