@@ -29,6 +29,10 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 800, height: 600)
 
+canvas.fillColor = Color.yellow
+canvas.drawRectangle(centreX: 0, centreY: 0, width: 800, height: 600)
+canvas.fillColor = Color.yellow
+canvas.drawRectangle(centreX: 0, centreY: 0, width: 800, height: 600)
 /*:
  ## Add your code below
  
@@ -45,6 +49,13 @@ canvas.translate(byX: 400, byY: 300)
 // Draw the axes so we can see where we are
 canvas.drawAxes()
 
+//stem
+canvas.fillColor = Color.init(hue: 96, saturation: 100, brightness: 60, alpha: 100)
+canvas.drawEllipse(centreX: -20, centreY: 130, width: 50, height: 90, borderWidth: 0)
+canvas.fillColor = Color.white
+canvas.drawEllipse(centreX: -40, centreY: 110, width: 50, height: 90, borderWidth: 0)
+
+
 // Draw a pumpkin relative to the origin
 canvas.fillColor = Color.orange
 
@@ -57,15 +68,23 @@ canvas.drawEllipse(centreX: 200, centreY: 300, width: 10, height: 10, borderWidt
 // draw curves in pumpkin
 canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
 canvas.drawEllipse(centreX: 0, centreY: -10, width: 305, height: 240, borderWidth: 1)
+
 canvas.fillColor = Color.orange
 canvas.drawEllipse(centreX: 0, centreY: -10, width: 285, height: 240, borderWidth: 1)
+
 canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
 canvas.drawEllipse(centreX: 0, centreY: -10, width: 255, height: 235, borderWidth: 1)
+
 canvas.drawEllipse(centreX: 0, centreY: -10, width: 225, height: 230, borderWidth: 1)
 canvas.fillColor = Color.orange
 canvas.drawEllipse(centreX: 0, centreY: -10, width: 215, height: 210, borderWidth: 1)
+
 canvas.drawEllipse(centreX: 0, centreY: -10, width: 200, height: 205, borderWidth: 1)
 canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+
+canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+
+
 /*:
  ## Use source control
  To keep your work organized, and receive feedback, source control is a must.
