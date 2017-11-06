@@ -33,6 +33,7 @@ canvas.fillColor = Color.init(hue: 326, saturation: 32, brightness: 100, alpha: 
 
 canvas.drawRectangle(centreX: 400, centreY: 0, width: 800, height: 600)
 canvas.drawRectangle(centreX: 0, centreY: 0, width: 800, height: 600)
+canvas.drawRectangle(centreX: 400, centreY: 300, width: 800, height: 600 )
 
 /*:
  ## Add your code below
@@ -53,7 +54,7 @@ canvas.drawAxes()
 //stem
 canvas.fillColor = Color.init(hue: 96, saturation: 100, brightness: 60, alpha: 100)
 canvas.drawEllipse(centreX: -20, centreY: 130, width: 50, height: 90, borderWidth: 0)
-canvas.fillColor = Color.white
+canvas.fillColor = Color.init(hue: 326, saturation: 32, brightness: 100, alpha: 100)
 canvas.drawEllipse(centreX: -40, centreY: 110, width: 50, height: 90, borderWidth: 0)
 
 
