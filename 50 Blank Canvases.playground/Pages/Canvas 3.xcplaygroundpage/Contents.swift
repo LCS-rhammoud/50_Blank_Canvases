@@ -29,10 +29,11 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 800, height: 600)
 
-canvas.fillColor = Color.yellow
+canvas.fillColor = Color.init(hue: 326, saturation: 32, brightness: 100, alpha: 100)
+
+canvas.drawRectangle(centreX: 400, centreY: 0, width: 800, height: 600)
 canvas.drawRectangle(centreX: 0, centreY: 0, width: 800, height: 600)
-canvas.fillColor = Color.yellow
-canvas.drawRectangle(centreX: 0, centreY: 0, width: 800, height: 600)
+
 /*:
  ## Add your code below
  
