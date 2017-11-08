@@ -68,6 +68,7 @@ canvas.drawShapesWithBorders = false
 canvas.drawEllipse(centreX: 200, centreY: 300, width: 10, height: 10, borderWidth: 0)
 
 // draw curves in pumpkin
+
 canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
 canvas.drawEllipse(centreX: 0, centreY: -10, width: 305, height: 240, borderWidth: 1)
 
@@ -77,15 +78,63 @@ canvas.drawEllipse(centreX: 0, centreY: -10, width: 285, height: 240, borderWidt
 canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
 canvas.drawEllipse(centreX: 0, centreY: -10, width: 255, height: 235, borderWidth: 1)
 
-canvas.drawEllipse(centreX: 0, centreY: -10, width: 225, height: 230, borderWidth: 1)
 canvas.fillColor = Color.orange
-canvas.drawEllipse(centreX: 0, centreY: -10, width: 215, height: 210, borderWidth: 1)
-
-canvas.drawEllipse(centreX: 0, centreY: -10, width: 200, height: 205, borderWidth: 1)
-canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 235, height: 235, borderWidth: 1)
 
 canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 220, height: 225, borderWidth: 1)
 
+canvas.fillColor = Color.orange
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 200, height: 225, borderWidth: 1)
+
+canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 185, height: 220, borderWidth: 1)
+
+canvas.fillColor = Color.orange
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 165, height: 220, borderWidth: 1)
+
+canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 147, height: 215, borderWidth: 1)
+
+canvas.fillColor = Color.orange
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 130, height: 215, borderWidth: 1)
+
+canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 120, height: 210, borderWidth: 1)
+
+canvas.fillColor = Color.orange
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 110, height: 210, borderWidth: 1)
+
+canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 100, height: 205, borderWidth: 1)
+
+canvas.fillColor = Color.orange
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 85, height: 205, borderWidth: 1)
+
+canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 70, height: 200, borderWidth: 1)
+
+canvas.fillColor = Color.orange
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 70, height: 200, borderWidth: 1)
+
+canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 60, height: 195, borderWidth: 1)
+
+canvas.fillColor = Color.orange
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 60, height: 195, borderWidth: 1)
+
+canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 57, height: 190, borderWidth: 1)
+
+canvas.fillColor = Color.orange
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 40, height: 190, borderWidth: 1)
+
+canvas.fillColor = Color.init(hue: 25, saturation: 41, brightness: 100, alpha: 15)
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 35, height: 185, borderWidth: 1)
+
+
+canvas.fillColor = Color.orange
+canvas.drawEllipse(centreX: 0, centreY: -10, width: 35, height: 185, borderWidth: 1)
 
 /*:
  ## Use source control
