@@ -48,8 +48,7 @@ canvas.drawShapesWithBorders = false
 // Move the origin to the middle of the canvasand
 canvas.translate(byX: 400, byY: 300)
 
-// Draw the axes so we can see where we are
-canvas.drawAxes()
+
 
 //stem
 canvas.fillColor = Color.init(hue: 96, saturation: 100, brightness: 60, alpha: 100)
